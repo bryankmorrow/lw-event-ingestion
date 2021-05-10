@@ -28,8 +28,8 @@ resource "aws_lambda_function" "lw-ingestion" {
   # environment variables
   environment {
     variables = {
-      GCHAT_WEBHOOK = "https://chat.googleapis.com/v1/spaces/AAAAAH1X_3o/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=7RvBsAkd6s6_f0YX1W4_br5679Q1jUVKwOWK2jlBXUA%3D",
-      SNS_TOPIC = "arn:aws:sns:us-east-1:148091754571:lw-events"
+      GCHAT_WEBHOOK = "https://chat.googleapis.com/v1/spaces/webhook/etc/...",
+      SNS_TOPIC = "arn:aws:sns:..."
     }
   }
 }
