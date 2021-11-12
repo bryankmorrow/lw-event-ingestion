@@ -1,4 +1,6 @@
 This lambda function currently accepts Lacework events as webhooks to the following routes:
+
+[![IaC](https://app.soluble.cloud/api/v1/public/badges/6cc2b689-5b56-430b-b7e7-51c5dce5f43b.svg)](https://app.soluble.cloud/repos/details/github.com/bryankmorrow/lw-event-ingestion)  
  - ingestion/sns
  - ingestion/gchat
 
